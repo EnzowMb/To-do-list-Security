@@ -1,10 +1,10 @@
-[# Aplicação Web em Java de controle de lista de tarefas (to-do list).
+# Aplicação Web em Java de controle de lista de tarefas (to-do list).
 
 API Projeto Controle de lista de tarefas (to-do list)
 
 > Projeto em andamento!
 
-## Objetivo
+## 🎯 Objetivo
 
 Implementar uma API RESTful em Java para manter uma lista simples de tarefas TO-DO List, com uso
 do Spring Boot, Spring Framework, Spring Data JPA e Hibernate Validator. A implementação da API
@@ -85,5 +85,26 @@ OAuth2
         um objeto `JSON`.
       - Os `JWTs` podem ser assinados usando um segredo (com o `algoritmo HMAC` ) ou um par de chaves pública/privada usando `RSA` ou `ECDSA`.<br><br>
 
+### 🤖 Pré-requisitos
+
+Requisitos para o software e outras ferramentas para desenvolver e testar.
+- IDE Java;
+- JDK 17;
+- Spring Boot;
+- Postman
+- MySQL
+
+[![My Skills](https://skillicons.dev/icons?i=mysql,java,postman,spring)](https://skillicons.dev)
+
+### 🎲 Instalando e executando
+```bash 
+# Clonar este repositório
+$ git clone https://github.com/ViniciusFausto/Task-Management.git
+
+#Exportando o projeto
+- Exporte o projeto como maven project na sua IDE de preferencia.
+
+
+```
 ## 👥 Autor
   - **Enzo Martinelli**
