@@ -57,10 +57,33 @@ validate everywhere"_).<br><br>
    - **Hibernate Validator** é um projeto open source conduzido pela empresa _Red Hat_, que permite a
       validação dos dados, presentes nas classes que modelam o domínio da aplicação,
       em qualquer arquitetura (Web, Desktop, etc.) e em tempo de execução.<br><br>
-3. .
-   - .
-
-   > Em andamento
+3. Mapeamento de relacionamentos entre entidades com Hibernate:
+   - O relacionamento um-para-um, também conhecido como oneto-one, pode ser usado para dividir uma entidade em duas
+      (criando duas tabelas), para ficar mais normalizado e
+      organizado.<br><br>
+   - A anotação `@OneToMany` deve ser utilizada para mapear coleções.<br><br>
+4. Segurança da aplicação com Spring Security, OAuth 2 e JWT:
+   - `Spring Security` fornece suporte excelente para autenticação e autorização.<br><br>
+     - Com algumas poucas configurações, já podemos ter uma autenticação via banco de dados, `LDAP` (_Lightweight Directory Access Protocol_), etc.
+     - Através das permissões que atribuímos aos usuários autenticados, podemos proteger as
+        requisições web, a simples invocação de um método e até a instância de um objeto.
+     - Além disso, fornece proteção contra diversos ataques conhecidos, como o `Session Fixation`
+        (fixação de sessão), `clickjacking` (roubo de clique) e o `Cross Site Request Forgery` (CSRF -
+        falsificação de solicitação entre sites).<br><br>
+    - `OAuth 2` é um framework de autorização que permite que os aplicativos obtenham
+        acesso limitado a contas de usuário em um serviço HTTP, como Facebook,
+        GitHub, entre outros.
+      - Fornece fluxos de autorização para aplicativos da web e de desktop, e dispositivos móveis.
+      - OAuth define quatro funções:
+        - Proprietário do recurso;
+        - Cliente;
+        - Servidor de Recursos;
+        - Servidor de Autorização.
+      - Tipo de concessão: **Credenciais de senha do proprietário do recurso**.<br><br>
+    - `JSON Web Token (JWT)` é um padrão aberto que define uma maneira compacta e
+        independente para transmitir informações com segurança entre as partes como
+        um objeto `JSON`.
+      - Os `JWTs` podem ser assinados usando um segredo (com o `algoritmo HMAC` ) ou um par de chaves pública/privada usando `RSA` ou `ECDSA`.<br><br>
 
 ## 👥 Autor
   - **Enzo Martinelli**
