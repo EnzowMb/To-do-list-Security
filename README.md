@@ -13,6 +13,8 @@ remover os recursos: Tarefa (Task), Etiqueta (Tag) e Usuário (User).
 
 <img src="https://github.com/EnzowMb/To-do-list-Security/assets/89809584/5bc453fa-ac37-4317-b914-fb767f421cf9" width="800px">
 
+Acrescentar as técnicas de Segurança da API para a aplicação Web em Java de controle de lista de tarefas (to-do list), com uso de Spring Security, OAuth 2 e JWT.
+
 ## 🔨 Tecnologias utilizadas:
 <br>
 <div align="center">
@@ -37,13 +39,22 @@ OAuth2
 ```
 ## 🤓 Conhecimentos Adquiridos:
 
-1. .
-    - .
-   ...
+1. API RESTful, Spring Data JPA e Hibernate:
+   - `JPA` é uma especificação com o objetivo de definir e padronizar a forma como os desenvolvedores resolvem determinada coisa.
+     - A implementação mais famosa é o **Hibernate**.<br><br>
+   - O **Hibernate** facilita o mapeamento dos atributos entre uma base tradicional de dados
+      relacional e o modelo de objeto de uma aplicação, mediante o uso de arquivos
+      (XML) ou anotações Java.<br><br>
+   - `Spring Data JPA` ajuda os desenvolvedores padronizando o uso de algumas funcionalidades, e isso faz com que
+      tenhamos menos esforço para implementar as mesmas coisas de antes.<br><br>
+     - Um exemplo disso seria a implementação padrão que ele já nos dá em repositórios
+       (`JpaRepository`) para métodos como `save, delete, findOne`, entre outros.
+2. .
+   - .
+3. .
+   - .
 
    > Em andamento
 
 ## 👥 Autor
   - **Enzo Martinelli**
-
-](https://github.com/EnzowMb/To-do-list-Security/assets/89809584/5e8bb77e-4efd-4da2-b4bd-c07cafc96e6f)https://github.com/EnzowMb/To-do-list-Security/assets/89809584/5e8bb77e-4efd-4da2-b4bd-c07cafc96e6f
