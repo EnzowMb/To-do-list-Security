@@ -35,6 +35,43 @@ Spring Data JPA
 Bean Validation
 OAuth2
 ```
+### 🤖 Pré-requisitos
+
+Requisitos para o software e outras ferramentas para desenvolver e testar.
+- IDE Java;
+- JDK 17;
+- Spring Boot;
+- Postman
+- MySQL
+
+[![My Skills](https://skillicons.dev/icons?i=mysql,java,postman,spring)](https://skillicons.dev)
+
+### 🎲 Instalando e executando
+```bash 
+# Clonar este repositório
+$ git clone https://github.com/ViniciusFausto/Task-Management.git
+
+#Exportando o projeto
+- Exporte o projeto como maven project na sua IDE de preferencia.
+
+# Configurando as credenciais
+
+-Altere as configurações em application.properties com a url, username e password de sua preferência.
+
+spring.jpa.database=MYSQL
+spring.datasource.url=jdbc: {Sua String de conexão}
+spring.datasource.username= {Usuario do banco}
+spring.datasource.password= {Senha do banco}
+
+Exemplo
+
+spring.jpa.database=MYSQL
+spring.datasource.url=jdbc://banco.database.windows.net:1433;database=banconame;user=admin@test;password=123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;
+spring.datasource.username= admin
+spring.datasource.password= 123
+
+```
+
 ## 🤓 Conhecimentos Adquiridos:
 
 1. API RESTful, Spring Data JPA e Hibernate:
@@ -83,41 +120,5 @@ OAuth2
         um objeto `JSON`.
       - Os `JWTs` podem ser assinados usando um segredo (com o `algoritmo HMAC` ) ou um par de chaves pública/privada usando `RSA` ou `ECDSA`.<br><br>
 
-### 🤖 Pré-requisitos
-
-Requisitos para o software e outras ferramentas para desenvolver e testar.
-- IDE Java;
-- JDK 17;
-- Spring Boot;
-- Postman
-- MySQL
-
-[![My Skills](https://skillicons.dev/icons?i=mysql,java,postman,spring)](https://skillicons.dev)
-
-### 🎲 Instalando e executando
-```bash 
-# Clonar este repositório
-$ git clone https://github.com/ViniciusFausto/Task-Management.git
-
-#Exportando o projeto
-- Exporte o projeto como maven project na sua IDE de preferencia.
-
-# Configurando as credenciais
-
--Altere as configurações em application.properties com a url, username e password de sua preferência.
-
-spring.jpa.database=MYSQL
-spring.datasource.url=jdbc: {Sua String de conexão}
-spring.datasource.username= {Usuario do banco}
-spring.datasource.password= {Senha do banco}
-
-Exemplo
-
-spring.jpa.database=MYSQL
-spring.datasource.url=jdbc://banco.database.windows.net:1433;database=banconame;user=admin@test;password=123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;
-spring.datasource.username= admin
-spring.datasource.password= 123
-
-```
 ## 👥 Autor
   - **Enzo Martinelli**
