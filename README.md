@@ -46,14 +46,14 @@ OAuth2
       relacional e o modelo de objeto de uma aplicação, mediante o uso de arquivos
       (XML) ou anotações Java.<br><br>
    - `Spring Data JPA` ajuda os desenvolvedores padronizando o uso de algumas funcionalidades, e isso faz com que
-      tenhamos menos esforço para implementar as mesmas coisas de antes.<br><br>
+      tenhamos menos esforço para implementar as mesmas coisas de antes.
      - Um exemplo disso seria a implementação padrão que ele já nos dá em repositórios
        (`JpaRepository`) para métodos como `save, delete, findOne`, entre outros.<br><br>
 2. Bean Validation e Hibernate Validator:
    - `Jakarta Bean Validation API` (anteriormente conhecido como `Bean Validation
-API`) permite definir validações de dados usando anotações em seus Java Beans.<br><br>
+      API`) permite definir validações de dados usando anotações em seus Java Beans.
      - Seu lema é _"restrinja uma vez, valide em todos os lugares"_ (_"constrain once,
-validate everywhere"_).<br><br>
+        validate everywhere"_).<br><br>
    - **Hibernate Validator** é um projeto open source conduzido pela empresa _Red Hat_, que permite a
       validação dos dados, presentes nas classes que modelam o domínio da aplicação,
       em qualquer arquitetura (Web, Desktop, etc.) e em tempo de execução.<br><br>
@@ -63,7 +63,7 @@ validate everywhere"_).<br><br>
       organizado.<br><br>
    - A anotação `@OneToMany` deve ser utilizada para mapear coleções.<br><br>
 4. Segurança da aplicação com Spring Security, OAuth 2 e JWT:
-   - `Spring Security` fornece suporte excelente para autenticação e autorização.<br><br>
+   - `Spring Security` fornece suporte excelente para autenticação e autorização.
      - Com algumas poucas configurações, já podemos ter uma autenticação via banco de dados, `LDAP` (_Lightweight Directory Access Protocol_), etc.
      - Através das permissões que atribuímos aos usuários autenticados, podemos proteger as
         requisições web, a simples invocação de um método e até a instância de um objeto.
