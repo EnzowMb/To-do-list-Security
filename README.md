@@ -48,9 +48,15 @@ OAuth2
    - `Spring Data JPA` ajuda os desenvolvedores padronizando o uso de algumas funcionalidades, e isso faz com que
       tenhamos menos esforço para implementar as mesmas coisas de antes.<br><br>
      - Um exemplo disso seria a implementação padrão que ele já nos dá em repositórios
-       (`JpaRepository`) para métodos como `save, delete, findOne`, entre outros.
-2. .
-   - .
+       (`JpaRepository`) para métodos como `save, delete, findOne`, entre outros.<br><br>
+2. Bean Validation e Hibernate Validator:
+   - `Jakarta Bean Validation API` (anteriormente conhecido como `Bean Validation
+API`) permite definir validações de dados usando anotações em seus Java Beans.<br><br>
+     - Seu lema é _"restrinja uma vez, valide em todos os lugares"_ (_"constrain once,
+validate everywhere"_).<br><br>
+   - **Hibernate Validator** é um projeto open source conduzido pela empresa _Red Hat_, que permite a
+      validação dos dados, presentes nas classes que modelam o domínio da aplicação,
+      em qualquer arquitetura (Web, Desktop, etc.) e em tempo de execução.<br><br>
 3. .
    - .
 
