@@ -2,8 +2,6 @@
 
 API Projeto Controle de lista de tarefas (to-do list)
 
-> Projeto em andamento!
-
 ## 🎯 Objetivo
 
 Implementar uma API RESTful em Java para manter uma lista simples de tarefas TO-DO List, com uso
@@ -104,6 +102,21 @@ $ git clone https://github.com/ViniciusFausto/Task-Management.git
 #Exportando o projeto
 - Exporte o projeto como maven project na sua IDE de preferencia.
 
+# Configurando as credenciais
+
+-Altere as configurações em application.properties com a url, username e password de sua preferência.
+
+spring.jpa.database=MYSQL
+spring.datasource.url=jdbc: {Sua String de conexão}
+spring.datasource.username= {Usuario do banco}
+spring.datasource.password= {Senha do banco}
+
+Exemplo
+
+spring.jpa.database=MYSQL
+spring.datasource.url=jdbc://banco.database.windows.net:1433;database=banconame;user=admin@test;password=123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;
+spring.datasource.username= admin
+spring.datasource.password= 123
 
 ```
 ## 👥 Autor
