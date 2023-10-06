@@ -49,7 +49,7 @@ Requisitos para o software e outras ferramentas para desenvolver e testar.
 ### 🎲 Instalando e executando
 ```bash 
 # Clonar este repositório
-$ git clone https://github.com/ViniciusFausto/Task-Management.git
+$ git clone https://github.com/EnzowMb/To-do-list-Security.git
 
 #Exportando o projeto
 - Exporte o projeto como maven project na sua IDE de preferencia.
